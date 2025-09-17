@@ -11,4 +11,4 @@ dependencies = [
 ]
 
 [project.scripts]
-adminer-mcp = "main:main"
+adminer-mcp = "src.main:main"
