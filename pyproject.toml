@@ -1,0 +1,11 @@
+[project]
+name = "adminer-mcp"
+version = "0.1.0"
+description = "Run raw sql queries via adminer"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bs4>=0.0.2",
+    "mcp[cli]>=1.11.0",
+    "requests>=2.32.4",
+]
