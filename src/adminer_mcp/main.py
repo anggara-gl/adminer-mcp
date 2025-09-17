@@ -373,5 +373,9 @@ def run_raw_mssql_query_via_adminer(query):
 mcp.tool()(run_raw_mssql_query_via_adminer)
 
 
-if __name__ == "__main__":
+def main():
     mcp.run(transport="stdio")
+
+
+if __name__ == "__main__":
+    main()
