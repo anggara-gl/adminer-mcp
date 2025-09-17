@@ -11,4 +11,7 @@ dependencies = [
 ]
 
 [project.scripts]
-adminer-mcp = "src.main:main"
+adminer-mcp = "adminer_mcp.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
